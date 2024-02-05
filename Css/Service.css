@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+header{
+    background-color:#3a5154;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+}
+.Logo{
+    color: #d8cdb0;
+    text-transform: uppercase;
+    font-weight:800;
+    font-size: 1.8em;
+    cursor: pointer;
+}
+.nav{
+    margin-left: 80px;
+}
+.nav a{
+    color: #d8cdb0;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: 400;
+    padding-left: 20px;
+}
+.nav a:hover{
+    color: #e09f48;
+    font-weight: 400;
+}
+.Btn button{
+    padding: 10px;
+    margin-left: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.Btn button:last-of-type{
+    border: 2px solid #b9b0b2;
+    background-color: #3a5154;
+    color: #d8cdb0;
+}
+.Btn button:last-of-type:hover{
+    border: 2px solid #b9b0b2;
+    background-color: #b7673c;
+    color: white;
+}
+.Btn button:first-of-type{
+    border: 2px solid #b9b0b2;
+    background-color: #b7673c;
+    color: white;
+}
+.cards{
+    padding: 130px 100px;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #e7e7e7;
+}
+.contain{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card{
+    background-color: #e7e7e7;
+    width: 15em;
+    box-shadow: 0 5px 25px rgba(1 1 1 /15%);
+    border-radius: 10px;
+    padding: 15px;
+    margin: 15px;
+    transition: 0.5s ease-in-out;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.icon{
+    color: #b7673c;
+    font-size: 6em;
+    text-align: center;
+}
+.inf{
+    text-align: center;
+}
+.inf h3{
+    color: #3a5154;
+    font-size: 2em;
+    font-weight: 600;
+    margin: 10px;
+}
+footer{
+    background-color:#3a5154;
+    color: #d8cdb0;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+}
+footer .Copy span{
+    color: #b7673c;
+}
+footer p{
+    display: flex;
+    align-items: center;
+}
+.Plan a{
+    color: #d8cdb0;
+    text-decoration: none;
+    font-weight: 400;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 100px;
+}

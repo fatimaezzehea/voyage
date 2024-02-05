@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscription</title>
+    <link rel="stylesheet" href="../Css/Inscription.css">
+</head>
+<body>
+    <header>
+        <h1 class="Logo">VOYAGEZ AVEC NOUS</h1>
+        <nav class="nav">
+            <a href="../index.html">Accueil</a>
+            <a href="./Service.html">Service</a>
+            <a href="./Contact.html">Contact</a>
+        </nav>
+        <div class="Btn">
+            <a href="./Inscription.html"><button >S'inscrire</button></a>
+            <a href="./Login.html"><button>Connexion</button></a>
+        </div>
+    </header>
+    <section class="Login">
+        <div class="lg">
+            <h1>VOYAGEZ AVEC <br><span>NOUS</span></h1>
+        </div>
+        <form  >
+            <div class="frm">
+                <label for="Inscription" id="ins">Inscription</label><br>
+                <div class="inf">
+                    <input type="text" name="Nom" placeholder="NOM" id="nom" required>
+                    <input type="text" name="Prenom" placeholder="Prénom" id="prenom" required ><br>
+                    <input type="tel" name="Numero" placeholder="Numéro" id="tel"><br>
+                    <input type="email" name="Email" placeholder="Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" id="email" required><br>
+                    <input type="password" name="Password" placeholder="Mot de Passe" id="psw"  required><br>
+                    <label for="DatN">Date de naissance :</label><br>
+                    <input type="date" required name="naissance" id="date"><br>
+                </div>
+                <div class="gnr">
+                    <label for="Genre">Genre :</label>
+                    <div class="hf">
+                        <input type="radio" name="G" ><label  for="Homme">Homme</label>
+                        <input type="radio" name="G" ><label for="Femme">Femme</label>
+                    </div>
+                </div>
+                <input type="submit" value="S'inscrire" id="sb">
+            </div>
+        </form>
+    </section>
+    <footer>
+        <p class="Copy">Copyrights @ <span>FATIMAEZZAHRA GRINEH</span></p>
+        <div class="map">
+            <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2016.1694363678723!2d-6.881262364210683!3d33.97612575483111!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda76d1833b0b4a5%3A0x9c1188711a74a86c!2sINSTITUT%20SPECIALISE%20DE%20TECHNOLOGIE%20APPLIQUEE%20DE%20GESTION%20YACOUB%20EL%20MANSOUR%20RABAT!5e1!3m2!1sfr!2sma!4v1648236264584!5m2!1sfr!2sma" width="200" height="100" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="Plan">
+            <a href="../index.html">Accueil</a>
+            <a href="./Service.html">Service</a>
+            <a href="./Contact.html">Contact</a>
+        </div>
+    </footer>
+    <script src="../Script/Main.js"></script>
+</body>
+</html>

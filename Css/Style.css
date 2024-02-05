@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+header{
+    background-color:#3a5154;
+    width: 100%;
+    height: 90px;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+}
+.Logo{
+    color: #746f6f;
+    text-transform: uppercase;
+    font-weight:800;
+    font-size: 1.8em;
+    cursor: pointer;
+}
+.nav{
+    margin-left: 80px;
+}
+.nav a{
+    color: #d8cdb0;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: 400;
+    padding-left: 20px;
+}
+.nav a:hover{
+    color: #e09f48;
+    font-weight: 400;
+}
+.Btn a button{
+    padding: 10px;
+    margin-left: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.Btn a button:last-of-type{
+    border: 2px solid #b9b0b2;
+    background-color: #3a5154;
+    color: #d8cdb0;
+}
+.Btn a button:last-of-type:hover{
+    border: 2px solid #b9b0b2;
+    background-color: #b7673c;
+    color: white;
+}
+.Btn a button:first-of-type{
+    border: 2px solid #b9b0b2;
+    background-color: #b7673c;
+    color: white;
+}
+section{
+    width: 100%;
+    min-height: 100vh;
+}
+.carousel-item{
+    height: 100vh;
+    min-width: 100vh;
+    background: no-repeat scroll center scroll;
+    -webkit-background-siza: cover;
+    background-size: cover;
+}
+.carousel-item::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #161818;
+    opacity: 0.7;
+}
+.carousel-caption{
+    bottom: 180px;
+    
+}
+.carousel-caption h5{
+    font-size: 100px;
+    font-weight: 600;
+}
+.slider-btn .btn{
+    font-size: 15px;
+    cursor: pointer;
+    text-transform: uppercase;
+    border: 2px solid #b9b0b2;
+    background-color: #3a5154;
+    color: #d8cdb0;
+    padding: 13px;
+    
+}
+.slider-btn .btn:hover{
+    background-color: #b7673c;
+    color: white;
+}
+footer{
+    background-color:#3a5154;
+    color: #d8cdb0;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+}
+footer .Copy span{
+    color: #b7673c;
+}
+footer p{
+    display: flex;
+    align-items: center;
+}
+.Plan a{
+    color: #d8cdb0;
+    text-decoration: none;
+    font-weight: 400;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 100px;
+}
+ header img{
+   width: 100px;
+   
+ 
+}
